@@ -4,7 +4,11 @@ function brands(name){
 console.log(name);
 }
 
-module.exports= {
-    z:z,
-    brands:brands,
+// module.exports= {
+//     variabl:z,
+//     fun:brands,
+// }
+export {
+  z,
+    brands,
 }
